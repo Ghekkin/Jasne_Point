@@ -1,0 +1,29 @@
+*{
+
+
+background: #669BBC;
+
+
+}
+
+
+#logoindx{
+
+    position: absolute;
+    width: 316px;
+    height: 167px;
+    left: calc(50% - 316px/2);
+    top: calc(50% - 167px/2 - 33.5px);
+
+}
+
+#logo{
+
+    position: absolute;
+    width: 41px;
+    height: 54px;
+    left: calc(50% - 41px/2 + 0.5px);
+    top: calc(50% - 54px/2 - 67px);
+background-color: white;
+
+}

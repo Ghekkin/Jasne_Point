@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+
+    background: #DCD8CD;
+}
+
+
+#logo{
+    position: absolute;
+width: 93px;
+height: 128px;
+left: calc(50% - 93px/2 - 0.5px);
+top: 71px;
+}
+
+#logtxt{
+
+    position: absolute;
+    width: 253px;
+    height: 40px;
+    left: calc(50% - 253px/2 - 40.5px);
+    top: 265px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #000000;
+
+}
+
+#datos{
+
+    position: absolute;
+width: 331px;
+height: 174px;
+left: calc(50% - 331px/2 - 1.5px);
+top: 329px;
+
+
+}
+
+#email{
+
+    position: absolute;
+    left: 0.3%;
+    right: 0%;
+    top: 0%;
+    bottom: 65.52%;
+    
+    border: 1px solid #887E7E;
+    border-radius: 5px;
+
+}
+
+#emailtxt{
+
+    position: absolute;
+left: 6.04%;
+right: 51.36%;
+top: 10.92%;
+bottom: 77.59%;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+border: none;
+
+}
+
+
+#contraseña{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0.3%;
+    top: 50.57%;
+    bottom: 14.94%;
+    
+    border: 1px solid #887E7E;
+    border-radius: 5px;
+
+}
+
+#contraseñatxt{
+
+    position: absolute;
+    left: 6.34%;
+    right: 55.59%;
+    top: 63.22%;
+    bottom: 25.29%;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #635C5C;
+    
+
+}
+
+#olvidocontra{
+
+    position: absolute;
+left: 31.72%;
+right: 0%;
+top: 88.51%;
+bottom: 0%;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: right;
+
+color: #000000;
+
+border: none;
+}
+
+#olvidocontra:hover{
+
+
+color: #6e5555;
+
+}
+
+.montiñita{
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40vh; /* Opcional: ajusta la altura según tus necesidades */
+    z-index: -1;  
+
+}
+
+
+.montiñita img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+}
+
+#login{
+
+
+    position: absolute;
+height: 60px;
+left: 7.18%;
+right: 8.21%;
+top: 527px;
+
+background: #003049;
+mix-blend-mode: normal;
+border-radius: 5px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+}
+
+#register{
+
+
+    position: absolute;
+    left: 56.92%;
+    right: 8.21%;
+    top: 65.54%;
+    bottom: 23.84%;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: right;
+    
+    color: #000000;
+    background: none;
+    border: none;
+}
+
+#register:hover{
+
+    color: #938a8a;
+
+
+}

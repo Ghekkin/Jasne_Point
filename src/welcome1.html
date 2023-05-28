@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./welcome1.css">
+    </head>
+    <body>
+
+
+        <img src="./images/notificationhuman.png" id="human">
+        
+        <div id="rectanglee"> 
+            <div id="rectangle"></div>
+                   <p id="title">Permisos de ubicacion</p>
+            <p id="text"> Monitoreo de ubicación en tiempo real para estar siempre seguro.</p>
+            <button id="boton"> Turn on Location</button>
+
+        </div>
+
+
+
+        <script>
+
+
+var boton = document.getElementById('boton');
+
+// Agregar un event listener al botón
+boton.addEventListener('click', function() {
+    alert("Aca en aplicacion aceptas permisos jeje");
+
+  // Redirigir a otra página
+  window.location.href = './welcome2.html';
+});
+
+            
+        </script>
+    </body>
+</html>
